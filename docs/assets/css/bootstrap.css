@@ -3357,17 +3357,17 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #49afcd;
-  *background-color: #2f96b4;
-  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
-  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-color: #4b9ae2;
+  *background-color: #4396e1;
+  background-image: -moz-linear-gradient(top, #509de3, #4396e1);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#509de3), to(#4396e1));
+  background-image: -webkit-linear-gradient(top, #509de3, #4396e1);
+  background-image: -o-linear-gradient(top, #509de3, #4396e1);
+  background-image: linear-gradient(to bottom, #509de3, #4396e1);
   background-repeat: repeat-x;
-  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: #4396e1 #4396e1 #1e6fba;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff509de3', endColorstr='#ff4396e1', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
@@ -3378,13 +3378,13 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #2f96b4;
-  *background-color: #2a85a0;
+  background-color: #4396e1;
+  *background-color: #2d89dd;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #24748c \9;
+  background-color: #217ccf \9;
 }
 
 .btn-warning {
@@ -3767,7 +3767,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #2f96b4;
+  background-color: #4396e1;
 }
 
 .btn-group.open .btn-warning.dropdown-toggle {
