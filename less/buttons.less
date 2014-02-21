@@ -145,6 +145,10 @@ input[type="button"] {
 .btn-primary {
   .buttonBackground(@btnPrimaryBackground, @btnPrimaryBackgroundHighlight);
 }
+
+.btn-primary-light {
+  .buttonBackground(lighten(@btnPrimaryBackground,10%), lighten(@btnPrimaryBackgroundHighlight,10%));
+}
 // Warning appears are orange
 .btn-warning {
   .buttonBackground(@btnWarningBackground, @btnWarningBackgroundHighlight);
