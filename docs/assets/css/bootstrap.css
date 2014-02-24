@@ -1525,7 +1525,7 @@ input[type="checkbox"][readonly] {
 .control-group.error .input-prepend .add-on,
 .control-group.error .input-append .add-on {
   color: #ffffff;
-  background-color: #e84224;
+  background-color: #ed6a52;
   border-color: #ffffff;
 }
 
@@ -2243,7 +2243,7 @@ table th[class*="span"],
 }
 
 .table tbody tr.error > td {
-  background-color: #e84224;
+  background-color: #ed6a52;
 }
 
 .table tbody tr.warning > td {
@@ -2259,7 +2259,7 @@ table th[class*="span"],
 }
 
 .table-hover tbody tr.error:hover > td {
-  background-color: #db3517;
+  background-color: #ea563b;
 }
 
 .table-hover tbody tr.warning:hover > td {
@@ -3906,7 +3906,6 @@ input[type="submit"].btn.btn-mini {
 .alert {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   background-color: #fcf8e3;
   border: 1px solid #fbeed5;
   -webkit-border-radius: 0;
@@ -3943,8 +3942,8 @@ input[type="submit"].btn.btn-mini {
 .alert-danger,
 .alert-error {
   color: #ffffff;
-  background-color: #e84224;
-  border-color: #e5181b;
+  background-color: #ed6a52;
+  border-color: #eb4447;
 }
 
 .alert-danger h4,
@@ -4940,9 +4939,6 @@ input[type="submit"].btn.btn-mini {
   background-color: #ffffff;
   border: 0;
   outline: 0;
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-     -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
 }
 
 .navbar-inverse .btn-navbar {
